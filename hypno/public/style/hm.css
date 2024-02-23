@@ -1,0 +1,46 @@
+* ,html, body {
+    margin: 0;
+}
+
+section {
+    min-height: 100vh;
+    border: 2px solid black;
+}
+
+.hs {
+    background: linear-gradient(to right, #56E0E0, #005C7B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.price-container {
+    width: 100%;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-content {
+    width: 75%;
+}
+
+.price-list {
+    border: 3px solid black;
+}
+
+.price-list:hover {
+    transition: linear 0.1s;
+    border: 3px solid white;
+    color: white;
+    background: linear-gradient(to right, #56E0E0, #005C7B);
+}
+
+.ubt {
+    width: 9vw;
+    background-image: linear-gradient(to right, #56E0E0, #005C7B);
+}
+
+.ubt:hover {
+    background-image: linear-gradient(to right, #61ffff, #0298ca);
+}

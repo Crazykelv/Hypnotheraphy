@@ -8,6 +8,10 @@ img {
     width: 100vw;
 }
 
+.hp {
+    font-size: 5em;
+}
+
 .ubt {
     background-image: linear-gradient(to right, #56E0E0, #007299);
 }
@@ -27,3 +31,4 @@ img {
 .containerr {
     background-color: white;
 }
+

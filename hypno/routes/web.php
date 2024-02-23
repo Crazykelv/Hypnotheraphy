@@ -9,6 +9,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', [HomeController::class, 'wlc']);
 Route::get('dashboard', [HomeController::class, 'dashboard']);
 
+
 // Autentikasi Controller
 Route::get('register', [Autentikasi::class, 'register']);
 Route::get('login', [Autentikasi::class, 'login']);
