@@ -52,7 +52,7 @@
 
         <!-- SECTION ABOUT ME START -->
     <section id="about" class="h-screen">
-        <div class="flex flex-col items-center gap-20 tablet:gap-10 bg-white shadow-2xl py-20 px-16 my-32 mx-72 tablet:mx-20 tablet:justify-center tablet:text-center">
+        <div class="flex flex-col items-center gap-20 tablet:gap-10 bg-white shadow-2xl py-20 px-16 my-32 mx-60 tablet:mx-20 tablet:justify-center tablet:text-center">
             <div class="flex flex-wrap items-center justify-between gap-12 tablet:gap-1 tablet:justify-center">
                 <img src="assets\pas-foto.png" alt="pas-foto">
                 <div class="flex flex-col gap-10 justify-center mt-24">
