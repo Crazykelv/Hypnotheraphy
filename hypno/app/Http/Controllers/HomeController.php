@@ -12,9 +12,9 @@ class HomeController extends Controller
 
     }
 
-    public function dashboard() {
+    public function service() {
 
-        return view('home');
+        return view('service');
 
     }
 

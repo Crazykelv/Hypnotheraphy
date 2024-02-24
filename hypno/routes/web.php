@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Route;
 
 // Home Controller
 Route::get('/', [HomeController::class, 'wlc']);
-Route::get('dashboard', [HomeController::class, 'dashboard']);
+Route::get('service', [HomeController::class, 'service']);
 
 
 // Autentikasi Controller
