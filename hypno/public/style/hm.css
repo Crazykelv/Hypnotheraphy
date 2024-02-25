@@ -16,7 +16,7 @@ section {
 
 .price-container {
     width: 100%;
-    margin-top: 5vh;
+    margin-top: 13vh;
     padding-top: 3em;
     padding-bottom: 4em;
     display: flex;
@@ -50,5 +50,5 @@ section {
 }
 
 .alamat-container {
-    margin-top: 10vh;
+    margin-top: 20vh;
 }

@@ -17,6 +17,21 @@
 
     <title>Hipnoterapi</title>
 </head>
+
+<header class="bg-white py-16 px-32 shadow-xl fixed top-0 w-full z-50 tablet:py-8 tablet:px-16 ">
+    <nav class="flex justify-between ">
+    <a href="#" class="text-3xl hover:text-custom-second-color tablet:text-base"><h1>Hypno<span class="font-bold">Teraphy</span></h1></a>
+    <ul class="text-2xl flex gap-16 text-gray-500 tablet:gap-8">
+        <a href="/"><li class="font-normal hover:text-custom-second-color tablet:text-base">Home</li></a>
+        <a href="/#about"><li class="font-normal hover:text-custom-second-color tablet:text-base">About Me</li></a>
+        <a href="#"><li class="font-normal hover:text-custom-second-color tablet:text-base">HypnoTeraphy</li></a>
+        <a href="/service"><li class="font-normal hover:text-custom-second-color tablet:text-base">Services</li></a>
+    </ul>
+    <a href="#" class="text-s text-white bg-gradient-to-br from-cyan-400 to-cyan-800 py-2 px-5 
+    tablet:py-1.5 rounded-full hover:bg-gradient-to-tl from cyan-400 to cyan-800 tablet:text-[8px]">Contact Me</a>
+    </nav>
+</header> 
+
 <body class="bg-custom-main-color">
     <section class="pricelist" id="pricelist">
         <div class="price-container">
