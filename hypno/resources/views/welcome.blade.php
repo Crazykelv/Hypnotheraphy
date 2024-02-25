@@ -35,7 +35,7 @@
         <a href="#"><li class="font-normal hover:text-custom-second-color tablet:text-base">Home</li></a>
         <a href="#about"><li class="font-normal hover:text-custom-second-color tablet:text-base">About Me</li></a>
         <a href="#"><li class="font-normal hover:text-custom-second-color tablet:text-base">HypnoTeraphy</li></a>
-        <a href="#"><li class="font-normal hover:text-custom-second-color tablet:text-base">Services</li></a>
+        <a href="/service"><li class="font-normal hover:text-custom-second-color tablet:text-base">Services</li></a>
     </ul>
     <a href="#" class="text-s text-white bg-gradient-to-br from-cyan-400 to-cyan-800 py-2 px-5 
     tablet:py-1.5 rounded-full hover:bg-gradient-to-tl from cyan-400 to cyan-800 tablet:text-[8px]">Contact Me</a>
