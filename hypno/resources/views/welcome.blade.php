@@ -27,12 +27,19 @@
             background-size: cover;
             
         }
+
+  .active-carousel-dot {
+    width: 10px;
+    height: 10px;
+  }
+</style>
+
     </style>
 
     @vite('resources/css/app.css')
 </head>
 <header class="bg-white py-16 px-32 shadow-xl fixed top-0 w-full z-50 tablet:py-8 tablet:px-16 ">
-    <nav class="flex justify-between ">
+    <nav class="flex justify-between items-center">
     <div class="flex items-center gap-3">
     <a href="#" class="text-3xl hover:text-custom-second-color tablet:text-base"><h1>Hypno<span class="font-bold">Teraphy</span></h1></a>
     </div>
@@ -42,7 +49,7 @@
         <a href="#hypnoteraphy"><li class="font-normal hover:text-custom-second-color tablet:text-base">HypnoTeraphy</li></a>
         <a href="#pricelist"><li class="font-normal hover:text-custom-second-color tablet:text-base">Services</li></a>
     </ul>
-    <a href="#" class="text-s text-white bg-gradient-to-br from-cyan-400 to-cyan-800 py-2 px-5 
+    <a href="#" class="text-s text-white bg-gradient-to-br from-cyan-400 to-cyan-800 py-2 px-4 
     tablet:py-1.5 rounded-full hover:bg-gradient-to-tl from cyan-400 to cyan-800 tablet:text-[8px]">Contact Me</a>
     </nav>
 </header>                                               
@@ -60,7 +67,7 @@
 
         <!-- SECTION ABOUT ME START -->
     <section id="about" class="h-auto">
-        <div class="flex flex-col items-center gap-20 tablet:gap-10 bg-white shadow-2xl rounded-3xl py-20 px-16 my-32 mx-60 tablet:mx-20 tablet:justify-center tablet:text-center">
+        <div class="flex flex-col items-center gap-20 tablet:gap-10 bg-white shadow-2xl rounded-3xl py-20 px-16 my-32 mx-24 tablet:mx-20 tablet:justify-center tablet:text-center">
             <div class="flex flex-wrap items-center justify-between gap-12 tablet:gap-1 tablet:justify-center">
                 <img src="assets\pas-foto.png" alt="pas-foto">
                 <div class="flex flex-col gap-10 justify-center mt-24">
@@ -104,7 +111,7 @@
 
 
     {{-- SECTION TUJUAN START --}}
-    <section id="tujuan" class="w-auto my-40 flex justify-center mt-64">
+    <section id="tujuan" class="h-auto my-40 flex justify-center mt-64">
         <div class="flex flex-wrap gap-40 items-center justify-center tablet:text-center tablet:gap-24">
             <div class="flex flex-col gap-12 items-center">
                 <h1 class="text-5xl font-bold text-blue-900">Tujuan <span class="bg-gradient-to-r from-cyan-400 to-cyan-800 text-transparent bg-clip-text"><span class="font-bold">Hypnoteraphy</span></span></h1>
@@ -122,7 +129,7 @@
 
     {{-- SECTION PENYAKIT START--}}
     <section id="penyakit" class=" h-auto my-48 flex justify-center tablet:my-72">
-        <div class="flex flex-wrap px-48 gap-28 tablet:justify-center tablet:text-center items-center">
+        <div class="flex flex-wrap px-16 gap-28 tablet:justify-center tablet:text-center items-center">
             <row class="flex flex-col gap-8">
                 <h1 class="text-5xl font-bold text-blue-900">Jenis <span class="bg-gradient-to-r from-cyan-400 to-cyan-800 text-transparent bg-clip-text"><span class="font-bold">Penyakit</span></span></h1>
                 <p class="max-w-lg text-gray-500 leading-loose text-xl">Hypnoteraphy bisa membantu berbagai penyakit 
@@ -194,7 +201,7 @@
                             <label class="form-check-label" for="flexCheckDefault">
                                 <p class="poppins-semibold">Paket konsultasi Self Mental Health</p>
                             </label>
-                          </div>
+                        </div>
                         </div>
                         <div class="col">
                             <div class="row justify-content-end">
@@ -361,5 +368,115 @@
     </section>
     {{-- SECTION UCAPAN END --}}
 
+
+    {{-- SECTION ULASAN START --}}
+    <section class="h-auto" id="ulasan">
+        <div class="flex flex-col items-center gap-10 relative">
+            <h1 class="bg-gradient-to-r from-cyan-400 to-cyan-800 text-transparent bg-clip-text"><span class="text-4xl font-bold">Ulasan Pasien</span></h1>
+            <div class="flex flex-wrap gap-10 justify-center max-w-[1200px] overflow-x mx-4" id="wrapper-card">  {{-- wrapper card  --}}
+                <div class="bg-white border-2 px-10 py-5 rounded-xl">
+                    <div class="flex">
+                        <img src="assets\stars.png" alt="stars">
+                        <img src="assets\stars.png" alt="stars">
+                        <img src="assets\stars.png" alt="stars">
+                        <img src="assets\stars.png" alt="stars">
+                        <img src="assets\stars.png" alt="stars">
+                    </div>
+                    <p class="w-64 my-4 leading-7 font-semibold text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Voluptate voluptatum neque perspiciatis.
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <img class="w-10 h-10 rounded-full" src="assets\akbar.JPG" alt="foto-customer">
+                        <p class="font-bold text-gray-600">Akbar Bengkel</p>
+                    </div>
+                </div>
+                <div class="bg-white border-2 px-10 py-5 rounded-xl">
+                    <div class="flex">
+                        <img src="assets\stars.png" alt="stars">
+                        <img src="assets\stars.png" alt="stars">
+                        <img src="assets\stars.png" alt="stars">
+                        <img src="assets\stars.png" alt="stars">
+                        <img src="assets\stars.png" alt="stars">
+                    </div>
+                    <p class="w-64 my-4 leading-7 font-semibold text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Voluptate voluptatum neque perspiciatis.
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <img class="w-10 h-10 rounded-full" src="assets\yosep.JPG" alt="foto-customer">
+                        <p class="font-bold text-gray-600">Yosep Knalpot</p>
+                    </div>
+                </div>
+                <div class="bg-white border-2 px-10 py-5 rounded-xl">
+                    <div class="flex">
+                        <img src="assets\stars.png" alt="stars">
+                        <img src="assets\stars.png" alt="stars">
+                        <img src="assets\stars.png" alt="stars">
+                        <img src="assets\stars.png" alt="stars">
+                        <img src="assets\stars.png" alt="stars">
+                    </div>
+                    <p class="w-64 my-4 leading-7 font-semibold text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        Voluptate voluptatum neque perspiciatis.
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <img class="w-10 h-10 rounded-full" src="assets\fahri.JPG" alt="foto-customer">
+                        <p class="font-bold text-gray-600">Fahri Cilok</p>
+                    </div>
+                </div>
+            </div>
+            {{-- <div class="flex">
+                <svg id="back-button" class="cursor-pointer w-10 absolute top-1/2 transform -translate-y-1/2 left-14 hover:text-cyan-700" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+                </svg>
+                <svg id="next-button" class="cursor-pointer w-10 absolute top-1/2 transform -translate-y-1/2 right-14 hover:text-cyan-700" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                </svg>
+            </div>     --}}
+        </div>
+    </section>
+    {{-- SECTION ULASAN END --}}
+
+    {{-- SECTION FEEDBACK START --}}
+        <section id="feedback">
+            <div class="flex flex-col items-center gap-14">
+                <h1 class="bg-gradient-to-r from-cyan-400 to-cyan-800 text-transparent bg-clip-text"><span class="text-4xl font-bold">Feedback</span></h1>
+                <div class="flex flex-col gap-10">
+                    <form>
+                        <select class="bg-transparent w-[82vw] border-b-2 p-2" name="help" id="help">
+                            <option value="how">How Can I Help You?</option>
+                            <option value="pelayanan">Pelayanan</option>
+                            <option value="biaya">Biaya</option>
+                            <option value="penyakit">Penyakit</option>
+                        </select>
+                    </form> 
+                    <div class="flex items-center gap-4 flex-wrap">
+                        <input  class="bg-transparent w-[40vw] border-b-2 p-2 outline-none" type="text" id="name" name="name" placeholder="Name*">
+                        <input class="bg-transparent w-[40vw] border-b-2 p-2  outline-none" type="email" id="email" name="email" placeholder="Email*">
+                    </div>
+                    <div class="flex items-center gap-4 flex-wrap">
+                        <input class="bg-transparent w-[40vw] border-b-2 p-2 outline-none" type="number" id="phone" name="phone" placeholder="Phone*">
+                        <input class="bg-transparent w-[40vw] border-b-2 p-2 outline-none" type="text" id="organization" name="organization" placeholder="Organization*">
+                    </div>
+                    <div>
+                        <input class="bg-transparent w-[82vw] border-b-2 p-2 py-6 outline-none" type="text" name="message" id="message" placeholder="Message">
+                    </div>
+                </div>
+                <a href="#" class="bg-gradient-to-r from-cyan-400 to-cyan-800 text-white px-8 py-2 rounded-full hover:bg-gradient-to-tl from cyan-400 to cyan-800">Kirim</a>
+            </div>
+        </section>
+    {{-- SECTION FEEDBACK END --}}
+
+    {{-- FOOTER SECTION START --}}
+    <footer class="h-auto bg-white">
+    <div class="flex flex-col items-center py-20 gap-16">
+        <h1 class="bg-gradient-to-r from-cyan-400 to-cyan-800 text-transparent bg-clip-text"><span class="text-4xl font-bold">Contact Me</span></h1>
+        <div class="flex items-center justify-evenly gap-24">
+            <a class="w-20 h-20 grayscale hover:grayscale-0" href="#" target="blank"><img src="assets\email.png" alt="email"   ></a>            
+            <a class="w-20 h-20 grayscale hover:grayscale-0" href="https://wa.me/6283169153860"  target="blank"><img src="assets\whatsapp.png"  alt="wa"></a>            
+            <a class="w-20 h-20 grayscale hover:grayscale-0" href="https://www.instagram.com/baitusyifa_hipnoterapi/"   target="blank"><img src="assets\instagram.png" alt="ig"></a>            
+        </div>
+    </div>
+    </footer>
+    {{-- FOOTER SECTION END --}}
+    <script src="public\js\script.js"></script>
 </body>
 </html>
