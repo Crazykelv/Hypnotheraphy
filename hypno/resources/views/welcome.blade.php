@@ -49,7 +49,7 @@
         <a href="#hypnoteraphy"><li class="font-normal hover:text-custom-second-color tablet:text-base">HypnoTeraphy</li></a>
         <a href="#pricelist"><li class="font-normal hover:text-custom-second-color tablet:text-base">Services</li></a>
     </ul>
-    <a href="#" class="text-s text-white bg-gradient-to-br from-cyan-400 to-cyan-800 py-2 px-4 
+    <a href="#footer" class="text-s text-white bg-gradient-to-br from-cyan-400 to-cyan-800 py-2 px-4 
     tablet:py-1.5 rounded-full hover:bg-gradient-to-tl from cyan-400 to cyan-800 tablet:text-[8px]">Contact Me</a>
     </nav>
 </header>                                               
@@ -207,7 +207,7 @@
                             <div class="row justify-content-end">
                                 <div class="col d-flex flex-column align-items-end">
                                     <h5 class="text-end me-4 poppins-bold ">Rp.400.000 / 3x Pertemuan</h5>
-                                    <button class="ubt btn btn-info mt-2 me-4 p-1 px-3 rounded-pill shadow-sm text-white poppins-regular">lihat Detail</button>                                   
+                                    <a href="https://wa.me/+6283169153860?text=permisi,%20saya%20ingin%20memesan%20paket%20Konsultasi%20Self%20Mental%20Health%20melalui%20transaksi%20blank"><button class="ubt btn btn-info mt-2 me-4 p-1 px-3 rounded-pill shadow-sm text-white poppins-regular">lihat Detail</button></a>                                 
                                 </div>                                 
                             </div>
                         </div>
@@ -228,7 +228,7 @@
                             <div class="row justify-content-end">
                                 <div class="col d-flex flex-column align-items-end">
                                     <h5 class="text-end me-4 poppins-bold">Rp.200.000 / 1x Pertemuan</h5>
-                                    <button class="ubt btn btn-info mt-2 me-4 p-1 px-3 rounded-pill shadow-sm text-white poppins-regular">lihat Detail</button>                                  
+                                    <a href="https://wa.me/+6283169153860?text=permisi,%20saya%20ingin%20memesan%20paket%20slimming%20diet%20melalui%20transaksi%20blank"><button class="ubt btn btn-info mt-2 me-4 p-1 px-3 rounded-pill shadow-sm text-white poppins-regular">lihat Detail</button></a>                                
                                 </div>                                 
                             </div>
                         </div>
@@ -249,7 +249,7 @@
                             <div class="row justify-content-end">
                                 <div class="col d-flex flex-column align-items-end">
                                     <h5 class="text-end me-4 poppins-bold">Rp.130.000 / 1x Pertemuan</h5>
-                                    <button class="ubt btn btn-info mt-2 me-4 p-1 px-3 rounded-pill shadow-sm text-white poppins-regular">lihat Detail</button>                                   
+                                    <a href="https://wa.me/+6283169153860?text=permisi,%20saya%20ingin%20memesan%20paket%20hemat%20Self%20berhenti%20merokok%20melalui%20transaksi%20blank"><button class="ubt btn btn-info mt-2 me-4 p-1 px-3 rounded-pill shadow-sm text-white poppins-regular">lihat Detail</button></a>                                  
                                 </div>                                 
                             </div>
                         </div>
@@ -270,7 +270,7 @@
                             <div class="row justify-content-end">
                                 <div class="col d-flex flex-column align-items-end">
                                     <h5 class="text-end me-4 poppins-bold">Rp.140.000 / 1x Pertemuan</h5>
-                                    <button class="ubt btn btn-info mt-2 me-4 p-1 px-3 rounded-pill shadow-sm text-white poppins-regular">lihat Detail</button>                                  
+                                    <a href="https://wa.me/+6283169153860?text=permisi,%20saya%20ingin%20memesan%20paket%20Konsultasi%20pasutri%20melalui%20transaksi%20blank"><button class="ubt btn btn-info mt-2 me-4 p-1 px-3 rounded-pill shadow-sm text-white poppins-regular">lihat Detail</button></a>                                  
                                 </div>                                 
                             </div>
                         </div>
@@ -291,7 +291,7 @@
                             <div class="row justify-content-end">
                                 <div class="col d-flex flex-column align-items-end">
                                     <h5 class="text-end me-4 poppins-bold">Rp.6.000 / botol 600ml</h5>
-                                    <button class="ubt btn btn-info mt-2 me-4 p-1 px-3 rounded-pill shadow-sm text-white poppins-regular">lihat Detail</button>                                     
+                                    <a href="https://wa.me/+6283169153860?text=permisi,%20saya%20ingin%20memesan%20paket%20kangen%20water%20melalui%20transaksi%20blank"><button class="ubt btn btn-info mt-2 me-4 p-1 px-3 rounded-pill shadow-sm text-white poppins-regular">lihat Detail</button></a>                                     
                                 </div>                                 
                             </div>
                         </div>
@@ -466,7 +466,7 @@
     {{-- SECTION FEEDBACK END --}}
 
     {{-- FOOTER SECTION START --}}
-    <footer class="h-auto bg-white">
+    <footer class="h-auto bg-white" id="footer">
     <div class="flex flex-col items-center py-20 gap-16">
         <h1 class="bg-gradient-to-r from-cyan-400 to-cyan-800 text-transparent bg-clip-text"><span class="text-4xl font-bold">Contact Me</span></h1>
         <div class="flex items-center justify-evenly gap-24">
