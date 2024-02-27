@@ -22,6 +22,7 @@ section {
     justify-content: center;
     align-items: center;
     background-color: white;
+    overflow-x: hidden;
 }
 
 .price-content {
@@ -52,3 +53,4 @@ section {
 .alamat-container {
     margin-top: 20vh;
 }
+

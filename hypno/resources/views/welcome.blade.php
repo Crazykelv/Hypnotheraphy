@@ -27,15 +27,11 @@
             background-size: cover;
             
         }
+            #nav-menu.show-menu{
+                top: 60px;
+}
 
-  .active-carousel-dot {
-    width: 10px;
-    height: 10px;
-  }
 </style>
-
-    </style>
-
     @vite('resources/css/app.css')
 </head>
 <header class="bg-white py-16 px-32 shadow-xl fixed top-0 w-full z-50 tablet:py-8 tablet:px-16 tablet-sm:px-10">
@@ -43,15 +39,15 @@
     <div class="flex items-center gap-3">
     <a href="#" class="text-3xl hover:text-custom-second-color tablet:text-base"><h1>Hypno<span class="font-bold">Teraphy</span></h1></a>
     </div>
-    <ul class="text-2xl flex gap-16 text-gray-500 tablet:gap-8 android:hidden">
+    <ul id="nav-menu" class="text-2xl flex gap-16 text-gray-500 tablet:gap-8 android:flex-col android:absolute android:-top-[500px]  android:bg-white android:w-[100vw] android:p-10 android:left-0 android:transition-all 1s ease">
         <a href="#"><li class="font-normal hover:text-custom-second-color tablet:text-base">Home</li></a>
         <a href="#about"><li class="font-normal hover:text-custom-second-color tablet:text-base">About Me</li></a>
         <a href="#hypnoteraphy"><li class="font-normal hover:text-custom-second-color tablet:text-base">HypnoTeraphy</li></a>
         <a href="#pricelist"><li class="font-normal hover:text-custom-second-color tablet:text-base">Services</li></a>
         <a href="#footer" class="text-xs text-white bg-gradient-to-br from-cyan-400 to-cyan-800 py-2 px-4 
-        tablet:py-1.5 rounded-full hover:bg-gradient-to-tl from cyan-400 to cyan-800 tablet:text-[8px]">Contact Me</a>    
+        tablet:py-1.5 rounded-full hover:bg-gradient-to-tl from cyan-400 to cyan-800 tablet:text-[8px] android:max-w-24">Contact Me</a>    
     </ul>
-    <img class="hidden android:flex w-10" src="assets\ham-menu.png" alt="ham-menu">
+    <ion-icon name="menu" class="text-4xl cursor-pointer hidden android:block" id="ham"></ion-icon>
     </nav>
 </header>                                               
 
@@ -61,14 +57,14 @@
         <div class="flex flex-col items-center gap-10">
             <h1 class="text-white text-6xl font-bold android-sm:text-3xl iphone:text-2xl">HypnoTeraphy</h1>
             <p class="text-white font-normal text-xl android-sm:text-sm iphone:text-xs">"Efektivitas Terapy Penyakit Kejiwaan"</p>
-            <a class="text-white bg-gradient-to-br from-cyan-400 to-cyan-800 py-1.5 px-8 rounded-full hover:bg-gradient-to-tl from cyan-400 to cyan-800" href="#">Pelajari</a>
+            <a class="text-white bg-gradient-to-br from-cyan-400 to-cyan-800 py-1.5 px-8 rounded-full hover:bg-gradient-to-tl from cyan-400 to cyan-800" href="#hypnoteraphy">Pelajari</a>
         </div>
     </section>
         <!-- SECTION WELCOME END -->
 
         <!-- SECTION ABOUT ME START -->
     <section id="about" class="h-auto">
-        <div class="flex flex-col items-center gap-20 tablet:gap-10 bg-white shadow-2xl rounded-3xl py-20 px-16 my-32 mx-24 tablet:mx-20 tablet:justify-center tablet:text-center android:mx-12 android-sm:mx-6">
+        <div class="flex flex-col items-center gap-20 tablet:gap-10 bg-white shadow-2xl rounded-3xl py-20 px-16 my-32 mx-24 tablet:mx-20 tablet:justify-center tablet:text-center android:mx-12 android-sm:mx-6 tablet:my-8">
             <div class="flex flex-wrap items-center justify-between gap-12 tablet:gap-1 tablet:justify-center">
                 <img class="android-sm:" src="assets\pas-foto.png" alt="pas-foto">
                 <div class="flex flex-col gap-10 justify-center mt-24">
@@ -89,7 +85,7 @@
                         <img class="w-10 tablet-sm:w-6" src="assets\time-circle.png" alt="time-circle">
                         <p class="tablet-sm:text-xl android:text-sm android-sm:text-xs android-sm:text-left">Setiap Hari, 08:00 - 20:00 WIB</p>
                     </div>
-                    <a href="#" class="text-xl font-semibold text-blue-900 bg-white text-center py-2 rounded-full max-w-48 hover:shadow-2xl tablet-sm:text-sm android-sm:text-xs ">Download CV</a>
+                    <a href="https://drive.google.com/file/d/1LUFwagT6Z3TizNVpg-IUvCwxCqIhWP4e/view?usp=sharing" target="blank" class="text-xl font-semibold text-blue-900 bg-white text-center py-2 rounded-full max-w-48 hover:shadow-2xl tablet-sm:text-sm android-sm:text-xs ">Lihat CV</a>
                 </div>
             </div>
         </div>
@@ -98,7 +94,7 @@
         {{-- SECTION ABOUT ME END --}}
 
         {{-- SECTION HYPNOTERAPHY START --}}
-    <section id="hypnoteraphy" class="h-auto  flex items-center justify-center my-40">
+    <section id="hypnoteraphy" class="h-auto  flex items-center justify-center my-40 tablet:my-10">
             <div class="flex flex-col text-center items-center justify-center gap-10 bg-white rounded-3xl px-32 py-16 shadow-2xl tablet:mx-20 tablet-sm:mx-14 tablet-sm:px-24 android-sm:px-7 android-sm:mx-5">
                 <h1 class="text-5xl font-bold text-blue-900 tablet:text-4xl android:text-3xl iphone:text-xl">Apa itu <span class="bg-gradient-to-r from-cyan-400 to-cyan-800 text-transparent bg-clip-text "><span class="text-5xl font-bold tablet:text-4xl android:text-3xl iphone:text-xl">HypnoTeraphy?</span></span></h1>
                 <p class="max-w-5xl text-xl text-gray-500 android:text-sm iphone:text-xs">Booth (dalam Negara, 2011) menjelaskan terapis dalam hal ini membimbing klien memiliki perubahan positif untuk mengurangi 
@@ -112,7 +108,7 @@
 
 
     {{-- SECTION TUJUAN START --}}
-    <section id="tujuan" class="h-auto my-40 flex justify-center mt-64">
+    <section id="tujuan" class="h-auto my-40 flex justify-center mt-64 tablet:my-10">
         <div class="flex flex-wrap gap-40 items-center justify-center mx-5 tablet:text-center tablet:gap-24">
             <div class="flex flex-col gap-12 items-center iphone:gap-5">
                 <h1 class="text-5xl font-bold text-blue-900 android:text-3xl iphone:text-xl">Tujuan <span class="bg-gradient-to-r from-cyan-400 to-cyan-800 text-transparent bg-clip-text"><span class="font-bold">Hypnoteraphy</span></span></h1>
@@ -129,7 +125,7 @@
     {{-- SECTION TUJUAN END --}}
 
     {{-- SECTION PENYAKIT START--}}
-    <section id="penyakit" class=" h-auto my-48 flex justify-center tablet:my-72">
+    <section id="penyakit" class=" h-auto my-48 flex justify-center tablet:my-12">
         <div class="flex flex-wrap px-16 m-5 gap-28 tablet:justify-center tablet:text-center items-center iphone:px-0 iphone:gap-20">
             <row class="flex flex-col gap-8">
                 <h1 class="text-5xl font-bold text-blue-900 android-sm:text-3xl">Jenis <span class="bg-gradient-to-r from-cyan-400 to-cyan-800 text-transparent bg-clip-text"><span class="font-bold">Penyakit</span></span></h1>
@@ -190,10 +186,9 @@
 
     {{-- SECTION PRICELIST START--}}
     <section class="pricelist" id="pricelist">
-        <div class="price-container w-screen">
+        <div class="price-container">
             <div class="price-content">
                 <h1 class="poppins-bold text-center hs">Price List</h1>
-
                 <div class="price-list m-2 mt-4 py-4 px-2 rounded-4">
                     <div class="row text-start flex android-sm:flex-col android-sm:gap-7">
                         <div class="col d-flex align-items-center">
@@ -208,7 +203,7 @@
                             <div class="row justify-content-end">
                                 <div class="col d-flex flex-column align-items-end flex gap-4 ">
                                     <h5 class="text-end me-4 poppins-bold">Rp.400.000 / 3x Pertemuan</h5>
-                                    <a href="https://wa.me/+6283169153860?text=permisi,%20saya%20ingin%20memesan%20paket%20Konsultasi%20Self%20Mental%20Health%20melalui%20transaksi%20blank"><button class="bg-gradient-to-br from-cyan-400 to bg-cyan-800 text-white px-3 py-1 rounded-full my-3 mr-6 android:text-xs hover:bg-gradient-to-tl from cyan-400 to cyan-800">lihat Detail</button></a>                                 
+                                    <a target="blank" href="https://wa.me/+6283169153860?text=permisi,%20saya%20ingin%20memesan%20paket%20Konsultasi%20Self%20Mental%20Health%20melalui%20transaksi%20blank"><button class="bg-gradient-to-br from-cyan-400 to bg-cyan-800 text-white px-3 py-1 rounded-full my-3 mr-6 android:text-xs hover:bg-gradient-to-tl from cyan-400 to cyan-800">lihat Detail</button></a>                                 
                                 </div>                                 
                             </div>
                         </div>
@@ -229,7 +224,7 @@
                             <div class="row justify-content-end">
                                 <div class="col d-flex flex-column align-items-end flex gap-4 ">
                                     <h5 class="text-end me-4 poppins-bold">Rp.200.000 / 1x Pertemuan</h5>
-                                    <a href="https://wa.me/+6283169153860?text=permisi,%20saya%20ingin%20memesan%20paket%20slimming%20diet%20melalui%20transaksi%20blank"><button class="bg-gradient-to-br from-cyan-400 to bg-cyan-800 text-white px-3 py-1 rounded-full my-3 mr-6 android:text-xs hover:bg-gradient-to-tl from cyan-400 to cyan-800">lihat Detail</button></a>                                
+                                    <a target="blank" href="https://wa.me/+6283169153860?text=permisi,%20saya%20ingin%20memesan%20paket%20slimming%20diet%20melalui%20transaksi%20blank"><button class="bg-gradient-to-br from-cyan-400 to bg-cyan-800 text-white px-3 py-1 rounded-full my-3 mr-6 android:text-xs hover:bg-gradient-to-tl from cyan-400 to cyan-800">lihat Detail</button></a>                                
                                 </div>                                 
                             </div>
                         </div>
@@ -250,7 +245,7 @@
                             <div class="row justify-content-end">
                                 <div class="col d-flex flex-column align-items-end flex gap-4 ">
                                     <h5 class="text-end me-4 poppins-bold">Rp.130.000 / 1x Pertemuan</h5>
-                                    <a href="https://wa.me/+6283169153860?text=permisi,%20saya%20ingin%20memesan%20paket%20hemat%20Self%20berhenti%20merokok%20melalui%20transaksi%20blank"><button class="bg-gradient-to-br from-cyan-400 to bg-cyan-800 text-white px-3 py-1 rounded-full my-3 mr-6 android:text-xs hover:bg-gradient-to-tl from cyan-400 to cyan-800">lihat Detail</button></a>                                  
+                                    <a target="blank" href="https://wa.me/+6283169153860?text=permisi,%20saya%20ingin%20memesan%20paket%20hemat%20Self%20berhenti%20merokok%20melalui%20transaksi%20blank"><button class="bg-gradient-to-br from-cyan-400 to bg-cyan-800 text-white px-3 py-1 rounded-full my-3 mr-6 android:text-xs hover:bg-gradient-to-tl from cyan-400 to cyan-800">lihat Detail</button></a>                                  
                                 </div>                                 
                             </div>
                         </div>
@@ -271,7 +266,7 @@
                             <div class="row justify-content-end">
                                 <div class="col d-flex flex-column align-items-end flex gap-4 ">
                                     <h5 class="text-end me-4 poppins-bold">Rp.140.000 / 1x Pertemuan</h5>
-                                    <a href="https://wa.me/+6283169153860?text=permisi,%20saya%20ingin%20memesan%20paket%20Konsultasi%20pasutri%20melalui%20transaksi%20blank"><button class="bg-gradient-to-br from-cyan-400 to bg-cyan-800 text-white px-3 py-1 rounded-full my-3 mr-6 android:text-xs hover:bg-gradient-to-tl from cyan-400 to cyan-800">lihat Detail</button></a>                                  
+                                    <a target="blank" href="https://wa.me/+6283169153860?text=permisi,%20saya%20ingin%20memesan%20paket%20Konsultasi%20pasutri%20melalui%20transaksi%20blank"><button class="bg-gradient-to-br from-cyan-400 to bg-cyan-800 text-white px-3 py-1 rounded-full my-3 mr-6 android:text-xs hover:bg-gradient-to-tl from cyan-400 to cyan-800">lihat Detail</button></a>                                  
                                 </div>                                 
                             </div>
                         </div>
@@ -292,7 +287,7 @@
                             <div class="row justify-content-end">
                                 <div class="col d-flex flex-column align-items-end flex gap-4 ">
                                     <h5 class="text-end me-4 poppins-bold">Rp.6.000 / botol 600ml</h5>
-                                    <a href="https://wa.me/+6283169153860?text=permisi,%20saya%20ingin%20memesan%20paket%20kangen%20water%20melalui%20transaksi%20blank"><button class="bg-gradient-to-br from-cyan-400 to bg-cyan-800 text-white px-3 py-1 rounded-full my-3 mr-6 android:text-xs hover:bg-gradient-to-tl from cyan-400 to cyan-800">lihat Detail</button></a>                                     
+                                    <a target="blank" href="https://wa.me/+6283169153860?text=permisi,%20saya%20ingin%20memesan%20paket%20kangen%20water%20melalui%20transaksi%20blank"><button class="bg-gradient-to-br from-cyan-400 to bg-cyan-800 text-white px-3 py-1 rounded-full my-3 mr-6 android:text-xs hover:bg-gradient-to-tl from cyan-400 to cyan-800">lihat Detail</button></a>                                     
                                 </div>                                 
                             </div>
                         </div>
@@ -306,7 +301,7 @@
 
     {{-- SECTION ALAMAT START --}}
 
-    <section id="alamat" class="h-auto mx-10 my-36">
+    <section id="alamat" class="h-auto mx-10 my-36 tablet:my-32">
         <div class="flex flex-col gap-28 items-center">
             <h1 class="bg-gradient-to-r from-cyan-400 to-cyan-800 text-transparent bg-clip-text"><span class="font-bold text-4xl">Alamat</span></h1>
             <div class="flex gap-24 flex-wrap justify-center">
@@ -371,7 +366,7 @@
     {{-- SECTION ALAMAT END --}}
 
     {{-- SECTION UCAPAN START --}}
-    <section id="ucapan" class="h-auto my-64">
+    <section id="ucapan" class="h-auto my-64 tablet:my-12 iphone:my-0">
         <div class="flex flex-col items-center text-center bg-white mx-28 py-32 px-10 shadow-2xl gap-10 rounded-3xl tablet:mx-10 android-sm:mx-5 android-sm:px-10 android-sm:py-10">
             <h1 class="bg-gradient-to-r from-cyan-400 to-cyan-800 text-transparent bg-clip-text text-5xl android:text-3xl"><span class="font-bold">Terima Kasih</span></h1>
             <p class="max-w-5xl text-2xl text-gray-500 tablet:text-lg tablet:max-w-xl android:text-sm android:max-w-sm android-sm:text-xs">“Pikiran yang tenang membawa kekuatan batin dan rasa percaya diri sehingga itu sangat penting untuk kesehatan yang baik”. (Dalai Lama XIV)</p>
@@ -390,7 +385,7 @@
 
     {{-- SECTION ULASAN START --}}
     <section class="h-auto" id="ulasan">
-        <div class="flex flex-col items-center gap-10 relative my-20">
+        <div class="flex flex-col items-center gap-10 relative my-20 iphone:my-0">
             <h1 class="bg-gradient-to-r from-cyan-400 to-cyan-800 text-transparent bg-clip-text"><span class="text-4xl font-bold iphone:text-3xl">Ulasan Pasien</span></h1>
             <div class="flex flex-wrap gap-10 justify-center max-w-[1200px] overflow-x mx-4" id="wrapper-card">  {{-- wrapper card  --}}
                 <div class="bg-white border-2 px-10 py-5 rounded-xl">
@@ -456,7 +451,7 @@
 
     {{-- SECTION FEEDBACK START --}}
         <section id="feedback">
-            <div class="flex flex-col items-center gap-14">
+            <div class="flex flex-col items-center gap-14 ">
                 <h1 class="bg-gradient-to-r from-cyan-400 to-cyan-800 text-transparent bg-clip-text"><span class="text-4xl font-bold">Feedback</span></h1>
                 <div class="flex flex-col gap-10">
                     <form>
@@ -496,6 +491,8 @@
     </div>
     </footer>
     {{-- FOOTER SECTION END --}}
-    <script src="public\js\script.js"></script>
+    <script src="js\script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
 </body>
 </html>
