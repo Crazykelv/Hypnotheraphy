@@ -17,7 +17,7 @@ export default {
         'tablet': {'max': '1024px'},
         'tablet-sm': {'max': '768px'},
         'android': {'max': '576px'},
-        'android-sm': {'max': '414px'},
+        'android-sm': {'max': '415px'},
         'iphone': {'max': '355px'}
       }
     },
