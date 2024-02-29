@@ -96,7 +96,7 @@
         {{-- SECTION HYPNOTERAPHY START --}}
     <section id="hypnoteraphy" class="h-auto  flex items-center justify-center my-40 tablet:my-10">
             <div class="flex flex-col text-center items-center justify-center gap-10 bg-white rounded-3xl px-32 py-16 shadow-2xl tablet:mx-20 tablet-sm:mx-14 tablet-sm:px-24 android-sm:px-7 android-sm:mx-5">
-                <h1 class="text-5xl font-bold text-blue-900 tablet:text-4xl android:text-3xl iphone:text-xl">Apa itu <span class="bg-gradient-to-r from-cyan-400 to-cyan-800 text-transparent bg-clip-text "><span class="text-5xl font-bold tablet:text-4xl android:text-3xl iphone:text-xl">HypnoTeraphy?</span></span></h1>
+                <h1 class="text-5xl font-bold text-blue-900 tablet:text-4xl android:text-3xl iphone:text-xl">Apa itu <span class="bg-gradient-to-r from-cyan-400 to-cyan-800 text-transparent bg-clip-text "><span class="text-5xl font-bold tablet:text-4xl android:text-3xl iphone:text-xl">Hipnoterapi?</span></span></h1>
                 <p class="max-w-5xl text-xl text-gray-500 android:text-sm iphone:text-xs">Booth (dalam Negara, 2011) menjelaskan terapis dalam hal ini membimbing klien memiliki perubahan positif untuk mengurangi 
                     kecemasan ketika klien mengalami relaksasi mendalam dimana keadaan tersebut memiliki tingkat tinggi untuk masukannya sugesti, 
                     keadaan tersebut disebut trance</p>
@@ -111,7 +111,7 @@
     <section id="tujuan" class="h-auto my-40 flex justify-center mt-64 tablet:my-10">
         <div class="flex flex-wrap gap-40 items-center justify-center mx-5 tablet:text-center tablet:gap-24">
             <div class="flex flex-col gap-12 items-center iphone:gap-5">
-                <h1 class="text-5xl font-bold text-blue-900 android:text-3xl iphone:text-xl">Tujuan <span class="bg-gradient-to-r from-cyan-400 to-cyan-800 text-transparent bg-clip-text"><span class="font-bold">Hypnoteraphy</span></span></h1>
+                <h1 class="text-5xl font-bold text-blue-900 android:text-3xl iphone:text-xl">Tujuan <span class="bg-gradient-to-r from-cyan-400 to-cyan-800 text-transparent bg-clip-text"><span class="font-bold">Hipnoterapi</span></span></h1>
                 <p class="max-w-lg text-xl text-gray-700 leading-loose android:text-lg android:max-w-sm iphone:text-sm">Untuk membantu seseorang mengontrol keadaan 
                     kesadaran dengan lebih baik. Pada kasus depresi, 
                     terapi ini difokuskan untuk membantu pengidapnya 
@@ -193,7 +193,6 @@
                     <div class="row text-start flex android-sm:flex-col android-sm:gap-7">
                         <div class="col d-flex align-items-center">
                         <div class="form-check ms-3 mt-2">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" style="border: 2px solid black">
                             <label class="form-check-label" for="flexCheckDefault">
                                 <p class="poppins-semibold android:text-sm">Paket konsultasi Self Mental Health</p>
                             </label>
@@ -202,8 +201,8 @@
                         <div class="col">
                             <div class="row justify-content-end">
                                 <div class="col d-flex flex-column align-items-end flex gap-4 ">
-                                    <h5 class="text-end me-4 poppins-bold">Rp.400.000 / 3x Pertemuan</h5>
-                                    <a target="blank" href="https://wa.me/+6283169153860?text=permisi,%20saya%20ingin%20memesan%20paket%20Konsultasi%20Self%20Mental%20Health%20melalui%20transaksi%20blank"><button class="bg-gradient-to-br from-cyan-400 to bg-cyan-800 text-white px-3 py-1 rounded-full my-3 mr-6 android:text-xs hover:bg-gradient-to-tl from cyan-400 to cyan-800">lihat Detail</button></a>                                 
+                                    <h5 class="text-end me-4 poppins-bold"> <s class="text-end me-1 poppins-bold">Rp.600.000 </s> Rp.400.000 / 3x Pertemuan</h5>
+                                    <a target="blank" href="https://wa.me/+6283169153860?text=permisi,%20saya%20ingin%20memesan%20paket%20Konsultasi%20Self%20Mental%20Health%20melalui%20transaksi%20blank"><button class="bg-gradient-to-br from-cyan-400 to bg-cyan-800 text-white px-3 py-1 rounded-full my-3 mr-6 android:text-xs hover:bg-gradient-to-tl from cyan-400 to cyan-800">Pesan</button></a>                                 
                                 </div>                                 
                             </div>
                         </div>
@@ -214,7 +213,6 @@
                     <div class="row text-start flex android-sm:flex-col android-sm:gap-7">
                         <div class="col d-flex align-items-center ">
                         <div class="form-check ms-3 mt-2">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" style="border: 2px solid black">
                             <label class="form-check-label" for="flexCheckDefault">
                                 <p class="poppins-semibold">Slimming Diet</p>
                             </label>
@@ -223,8 +221,8 @@
                         <div class="col">
                             <div class="row justify-content-end">
                                 <div class="col d-flex flex-column align-items-end flex gap-4 ">
-                                    <h5 class="text-end me-4 poppins-bold">Rp.200.000 / 1x Pertemuan</h5>
-                                    <a target="blank" href="https://wa.me/+6283169153860?text=permisi,%20saya%20ingin%20memesan%20paket%20slimming%20diet%20melalui%20transaksi%20blank"><button class="bg-gradient-to-br from-cyan-400 to bg-cyan-800 text-white px-3 py-1 rounded-full my-3 mr-6 android:text-xs hover:bg-gradient-to-tl from cyan-400 to cyan-800">lihat Detail</button></a>                                
+                                    <h5 class="text-end me-4 poppins-bold"> <s class="text-end me-1 poppins-bold">Rp.250.000 </s> Rp.200.000 / 1x Pertemuan</h5>
+                                    <a target="blank" href="https://wa.me/+6283169153860?text=permisi,%20saya%20ingin%20memesan%20paket%20slimming%20diet%20melalui%20transaksi%20blank"><button class="bg-gradient-to-br from-cyan-400 to bg-cyan-800 text-white px-3 py-1 rounded-full my-3 mr-6 android:text-xs hover:bg-gradient-to-tl from cyan-400 to cyan-800">Pesan</button></a>                                
                                 </div>                                 
                             </div>
                         </div>
@@ -235,7 +233,6 @@
                     <div class="row text-start flex android-sm:flex-col android-sm:gap-7">
                         <div class="col d-flex align-items-center">
                         <div class="form-check ms-3 mt-2">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" style="border: 2px solid black">
                             <label class="form-check-label" for="flexCheckDefault">
                                 <p class="poppins-semibold android:text-sm">Paket Hemat Berhenti Merokok</p>
                             </label>
@@ -244,8 +241,8 @@
                         <div class="col">
                             <div class="row justify-content-end">
                                 <div class="col d-flex flex-column align-items-end flex gap-4 ">
-                                    <h5 class="text-end me-4 poppins-bold">Rp.130.000 / 1x Pertemuan</h5>
-                                    <a target="blank" href="https://wa.me/+6283169153860?text=permisi,%20saya%20ingin%20memesan%20paket%20hemat%20Self%20berhenti%20merokok%20melalui%20transaksi%20blank"><button class="bg-gradient-to-br from-cyan-400 to bg-cyan-800 text-white px-3 py-1 rounded-full my-3 mr-6 android:text-xs hover:bg-gradient-to-tl from cyan-400 to cyan-800">lihat Detail</button></a>                                  
+                                    <h5 class="text-end me-4 poppins-bold"><s class="text-end me-1 poppins-bold">Rp.200.000 </s> Rp.130.000 / 1x Pertemuan</h5>
+                                    <a target="blank" href="https://wa.me/+6283169153860?text=permisi,%20saya%20ingin%20memesan%20paket%20hemat%20Self%20berhenti%20merokok%20melalui%20transaksi%20blank"><button class="bg-gradient-to-br from-cyan-400 to bg-cyan-800 text-white px-3 py-1 rounded-full my-3 mr-6 android:text-xs hover:bg-gradient-to-tl from cyan-400 to cyan-800">Pesan</button></a>                                  
                                 </div>                                 
                             </div>
                         </div>
@@ -256,7 +253,6 @@
                     <div class="row text-start flex android-sm:flex-col android-sm:gap-7">
                         <div class="col d-flex align-items-center">
                         <div class="form-check ms-3 mt-2">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" style="border: 2px solid black">
                             <label class="form-check-label" for="flexCheckDefault">
                                 <p class="poppins-semibold">Konsulti Pasutri</p>
                             </label>
@@ -265,8 +261,8 @@
                         <div class="col">
                             <div class="row justify-content-end">
                                 <div class="col d-flex flex-column align-items-end flex gap-4 ">
-                                    <h5 class="text-end me-4 poppins-bold">Rp.140.000 / 1x Pertemuan</h5>
-                                    <a target="blank" href="https://wa.me/+6283169153860?text=permisi,%20saya%20ingin%20memesan%20paket%20Konsultasi%20pasutri%20melalui%20transaksi%20blank"><button class="bg-gradient-to-br from-cyan-400 to bg-cyan-800 text-white px-3 py-1 rounded-full my-3 mr-6 android:text-xs hover:bg-gradient-to-tl from cyan-400 to cyan-800">lihat Detail</button></a>                                  
+                                    <h5 class="text-end me-4 poppins-bold"><s class="text-end me-1 poppins-bold">Rp.200.000 </s>Rp.140.000 / 1x Pertemuan</h5>
+                                    <a target="blank" href="https://wa.me/+6283169153860?text=permisi,%20saya%20ingin%20memesan%20paket%20Konsultasi%20pasutri"><button class="bg-gradient-to-br from-cyan-400 to bg-cyan-800 text-white px-3 py-1 rounded-full my-3 mr-6 android:text-xs hover:bg-gradient-to-tl from cyan-400 to cyan-800">Pesan</button></a>                                  
                                 </div>                                 
                             </div>
                         </div>
@@ -277,7 +273,6 @@
                     <div class="row text-start flex android-sm:flex-col android-sm:gap-7">
                         <div class="col d-flex align-items-center">
                         <div class="form-check ms-3 mt-2">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" style="border: 2px solid black">
                             <label class="form-check-label" for="flexCheckDefault">
                                 <p class="poppins-semibold">Kangen Water</p>
                             </label>
@@ -287,7 +282,7 @@
                             <div class="row justify-content-end">
                                 <div class="col d-flex flex-column align-items-end flex gap-4 ">
                                     <h5 class="text-end me-4 poppins-bold">Rp.6.000 / botol 600ml</h5>
-                                    <a target="blank" href="https://wa.me/+6283169153860?text=permisi,%20saya%20ingin%20memesan%20paket%20kangen%20water%20melalui%20transaksi%20blank"><button class="bg-gradient-to-br from-cyan-400 to bg-cyan-800 text-white px-3 py-1 rounded-full my-3 mr-6 android:text-xs hover:bg-gradient-to-tl from cyan-400 to cyan-800">lihat Detail</button></a>                                     
+                                    <a target="blank" href="https://wa.me/+6283169153860?text=permisi,%20saya%20ingin%20memesan%20paket%20kangen%20water"><button class="bg-gradient-to-br from-cyan-400 to bg-cyan-800 text-white px-3 py-1 rounded-full my-3 mr-6 android:text-xs hover:bg-gradient-to-tl from cyan-400 to cyan-800">Pesan</button></a>                                     
                                 </div>                                 
                             </div>
                         </div>
@@ -483,10 +478,11 @@
     <footer class="h-auto bg-white" id="footer">
     <div class="flex flex-col items-center py-20 gap-16">
         <h1 class="bg-gradient-to-r from-cyan-400 to-cyan-800 text-transparent bg-clip-text"><span class="text-4xl font-bold">Contact Me</span></h1>
-        <div class="flex items-center justify-evenly gap-24 iphone:gap-10">
-            <a class="w-20 h-20 grayscale android-sm:w-14 android-sm:h-14 hover:grayscale-0 iphone:w-10 " href="#" target="blank"><img src="assets\email.png" alt="email"   ></a>            
-            <a class="w-20 h-20 grayscale android-sm:w-14 android-sm:h-14 hover:grayscale-0 iphone:w-10 " href="https://wa.me/6283169153860"  target="blank"><img src="assets\whatsapp.png"  alt="wa"></a>            
-            <a class="w-20 h-20 grayscale android-sm:w-14 android-sm:h-14 hover:grayscale-0 iphone:w-10 " href="https://www.instagram.com/baitusyifa_hipnoterapi/"   target="blank"><img src="assets\instagram.png" alt="ig"></a>            
+        <div class="flex items-center justify-evenly gap-24 iphone:gap-10 android:gap-5">
+            <a class="w-20 h-20 grayscale android-sm:w-12 android-sm:h-12 hover:grayscale-0 iphone:w-10 " href="rumahhipnoterapicibalong@gmail.com" target="blank"><img src="assets\email.png" alt="email"   ></a>            
+            <a class="w-20 h-20 grayscale android-sm:w-12 android-sm:h-12 hover:grayscale-0 iphone:w-10 " href="https://wa.me/6283169153860"  target="blank"><img src="assets\whatsapp.png"  alt="wa"></a>            
+            <a class="w-20 h-20 grayscale android-sm:w-12 android-sm:h-12 hover:grayscale-0 iphone:w-10 " href="https://www.instagram.com/baitusyifa_hipnoterapi/"   target="blank"><img src="assets\instagram.png" alt="ig"></a>
+            <a class="w-20 h-20 grayscale android-sm:w-12 android-sm:h-12 hover:grayscale-0 iphone:w-10 " href="https://vm.tiktok.com/ZMM8FsXGy/"   target="blank"><img src="assets\tikto.png" alt="tiktok"></a>               
         </div>
     </div>
     </footer>
